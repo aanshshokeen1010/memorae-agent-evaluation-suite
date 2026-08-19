@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #060919;
+    color: #F8FAFC;
+    font-family: 'Figtree', 'Plus Jakarta Sans', 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Official Memorae.ai Big Bang Cosmic Background & Radial Gradients */
+.memorae-bg-pattern {
+  background-color: #060919;
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(255, 107, 0, 0.22) 0px, transparent 50%),
+    radial-gradient(at 90% 15%, rgba(124, 58, 237, 0.25) 0px, transparent 50%),
+    radial-gradient(at 50% 90%, rgba(6, 182, 212, 0.20) 0px, transparent 50%);
+}
+
+.bg-grid-lines {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(224, 231, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(224, 231, 255, 0.035) 1px, transparent 1px);
+}
+
+/* Official Big Bang Multi-Gradient Button */
+.btn-memorae-gradient {
+  background: linear-gradient(135deg, #FF6B00 0%, #7C3AED 50%, #06B6D4 100%);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
+}
+
+.btn-memorae-gradient:hover {
+  filter: brightness(1.15);
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.55);
+  transform: translateY(-1px);
+}
+
+/* Big Bang Badge Glow */
+.big-bang-badge {
+  background: linear-gradient(135deg, rgba(255, 107, 0, 0.15), rgba(124, 58, 237, 0.2), rgba(6, 182, 212, 0.25));
+  border: 1px solid rgba(6, 182, 212, 0.4);
+  color: #06B6D4;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #060919;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #172554;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
+
+/* Glassmorphism & Cards for Big Bang Theme */
+.memorae-glass-panel {
+  background: rgba(10, 16, 47, 0.85);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid #172554;
+}
+
+.memorae-glass-card {
+  background: rgba(14, 22, 61, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid #172554;
+  box-shadow: 0 10px 30px -10px rgba(6, 9, 25, 0.9);
+}
+
+.memorae-glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.memorae-glass-card-hover:hover {
+  border-color: rgba(6, 182, 212, 0.6);
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

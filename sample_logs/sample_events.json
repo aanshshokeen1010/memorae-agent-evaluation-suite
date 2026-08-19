@@ -1,0 +1,762 @@
+[
+    {
+        "timestamp": "2026-08-17T14:59:26.730220Z",
+        "trace_id": "TRACE_REQ_001",
+        "request_id": "REQ_001",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730220Z",
+        "trace_id": "TRACE_REQ_001",
+        "request_id": "REQ_001",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730220Z",
+        "trace_id": "TRACE_REQ_001",
+        "request_id": "REQ_001",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730220Z",
+        "trace_id": "TRACE_REQ_001",
+        "request_id": "REQ_001",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730220Z",
+        "trace_id": "TRACE_REQ_001",
+        "request_id": "REQ_001",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730245Z",
+        "trace_id": "TRACE_REQ_002",
+        "request_id": "REQ_002",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730245Z",
+        "trace_id": "TRACE_REQ_002",
+        "request_id": "REQ_002",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730245Z",
+        "trace_id": "TRACE_REQ_002",
+        "request_id": "REQ_002",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730245Z",
+        "trace_id": "TRACE_REQ_002",
+        "request_id": "REQ_002",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730245Z",
+        "trace_id": "TRACE_REQ_002",
+        "request_id": "REQ_002",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730258Z",
+        "trace_id": "TRACE_REQ_003",
+        "request_id": "REQ_003",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730258Z",
+        "trace_id": "TRACE_REQ_003",
+        "request_id": "REQ_003",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730258Z",
+        "trace_id": "TRACE_REQ_003",
+        "request_id": "REQ_003",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730258Z",
+        "trace_id": "TRACE_REQ_003",
+        "request_id": "REQ_003",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730258Z",
+        "trace_id": "TRACE_REQ_003",
+        "request_id": "REQ_003",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730270Z",
+        "trace_id": "TRACE_REQ_004",
+        "request_id": "REQ_004",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730270Z",
+        "trace_id": "TRACE_REQ_004",
+        "request_id": "REQ_004",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730270Z",
+        "trace_id": "TRACE_REQ_004",
+        "request_id": "REQ_004",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730270Z",
+        "trace_id": "TRACE_REQ_004",
+        "request_id": "REQ_004",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730270Z",
+        "trace_id": "TRACE_REQ_004",
+        "request_id": "REQ_004",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730282Z",
+        "trace_id": "TRACE_REQ_005",
+        "request_id": "REQ_005",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730282Z",
+        "trace_id": "TRACE_REQ_005",
+        "request_id": "REQ_005",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730282Z",
+        "trace_id": "TRACE_REQ_005",
+        "request_id": "REQ_005",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730282Z",
+        "trace_id": "TRACE_REQ_005",
+        "request_id": "REQ_005",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730282Z",
+        "trace_id": "TRACE_REQ_005",
+        "request_id": "REQ_005",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730294Z",
+        "trace_id": "TRACE_REQ_006",
+        "request_id": "REQ_006",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730294Z",
+        "trace_id": "TRACE_REQ_006",
+        "request_id": "REQ_006",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730294Z",
+        "trace_id": "TRACE_REQ_006",
+        "request_id": "REQ_006",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730294Z",
+        "trace_id": "TRACE_REQ_006",
+        "request_id": "REQ_006",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730294Z",
+        "trace_id": "TRACE_REQ_006",
+        "request_id": "REQ_006",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730305Z",
+        "trace_id": "TRACE_REQ_007",
+        "request_id": "REQ_007",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730305Z",
+        "trace_id": "TRACE_REQ_007",
+        "request_id": "REQ_007",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730305Z",
+        "trace_id": "TRACE_REQ_007",
+        "request_id": "REQ_007",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730305Z",
+        "trace_id": "TRACE_REQ_007",
+        "request_id": "REQ_007",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730305Z",
+        "trace_id": "TRACE_REQ_007",
+        "request_id": "REQ_007",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730316Z",
+        "trace_id": "TRACE_REQ_008",
+        "request_id": "REQ_008",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730316Z",
+        "trace_id": "TRACE_REQ_008",
+        "request_id": "REQ_008",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730316Z",
+        "trace_id": "TRACE_REQ_008",
+        "request_id": "REQ_008",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730316Z",
+        "trace_id": "TRACE_REQ_008",
+        "request_id": "REQ_008",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730316Z",
+        "trace_id": "TRACE_REQ_008",
+        "request_id": "REQ_008",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730328Z",
+        "trace_id": "TRACE_REQ_009",
+        "request_id": "REQ_009",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730328Z",
+        "trace_id": "TRACE_REQ_009",
+        "request_id": "REQ_009",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730328Z",
+        "trace_id": "TRACE_REQ_009",
+        "request_id": "REQ_009",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730328Z",
+        "trace_id": "TRACE_REQ_009",
+        "request_id": "REQ_009",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730328Z",
+        "trace_id": "TRACE_REQ_009",
+        "request_id": "REQ_009",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730340Z",
+        "trace_id": "TRACE_REQ_010",
+        "request_id": "REQ_010",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730340Z",
+        "trace_id": "TRACE_REQ_010",
+        "request_id": "REQ_010",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730340Z",
+        "trace_id": "TRACE_REQ_010",
+        "request_id": "REQ_010",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730340Z",
+        "trace_id": "TRACE_REQ_010",
+        "request_id": "REQ_010",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730340Z",
+        "trace_id": "TRACE_REQ_010",
+        "request_id": "REQ_010",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730359Z",
+        "trace_id": "TRACE_REQ_011",
+        "request_id": "REQ_011",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730359Z",
+        "trace_id": "TRACE_REQ_011",
+        "request_id": "REQ_011",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730359Z",
+        "trace_id": "TRACE_REQ_011",
+        "request_id": "REQ_011",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730359Z",
+        "trace_id": "TRACE_REQ_011",
+        "request_id": "REQ_011",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730359Z",
+        "trace_id": "TRACE_REQ_011",
+        "request_id": "REQ_011",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 10000,
+        "error": "Request timed out.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730371Z",
+        "trace_id": "TRACE_REQ_012",
+        "request_id": "REQ_012",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730371Z",
+        "trace_id": "TRACE_REQ_012",
+        "request_id": "REQ_012",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730371Z",
+        "trace_id": "TRACE_REQ_012",
+        "request_id": "REQ_012",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730371Z",
+        "trace_id": "TRACE_REQ_012",
+        "request_id": "REQ_012",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730371Z",
+        "trace_id": "TRACE_REQ_012",
+        "request_id": "REQ_012",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 10000,
+        "error": "Request timed out.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730382Z",
+        "trace_id": "TRACE_REQ_013",
+        "request_id": "REQ_013",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730382Z",
+        "trace_id": "TRACE_REQ_013",
+        "request_id": "REQ_013",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730382Z",
+        "trace_id": "TRACE_REQ_013",
+        "request_id": "REQ_013",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730382Z",
+        "trace_id": "TRACE_REQ_013",
+        "request_id": "REQ_013",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730382Z",
+        "trace_id": "TRACE_REQ_013",
+        "request_id": "REQ_013",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 10000,
+        "error": "Request timed out.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730395Z",
+        "trace_id": "TRACE_REQ_014",
+        "request_id": "REQ_014",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730395Z",
+        "trace_id": "TRACE_REQ_014",
+        "request_id": "REQ_014",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730395Z",
+        "trace_id": "TRACE_REQ_014",
+        "request_id": "REQ_014",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730395Z",
+        "trace_id": "TRACE_REQ_014",
+        "request_id": "REQ_014",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730395Z",
+        "trace_id": "TRACE_REQ_014",
+        "request_id": "REQ_014",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 4200,
+        "error": "Memory retrieval failed.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730406Z",
+        "trace_id": "TRACE_REQ_015",
+        "request_id": "REQ_015",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730406Z",
+        "trace_id": "TRACE_REQ_015",
+        "request_id": "REQ_015",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730406Z",
+        "trace_id": "TRACE_REQ_015",
+        "request_id": "REQ_015",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730406Z",
+        "trace_id": "TRACE_REQ_015",
+        "request_id": "REQ_015",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730406Z",
+        "trace_id": "TRACE_REQ_015",
+        "request_id": "REQ_015",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 4200,
+        "error": "Memory retrieval failed.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730417Z",
+        "trace_id": "TRACE_REQ_016",
+        "request_id": "REQ_016",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730417Z",
+        "trace_id": "TRACE_REQ_016",
+        "request_id": "REQ_016",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730417Z",
+        "trace_id": "TRACE_REQ_016",
+        "request_id": "REQ_016",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730417Z",
+        "trace_id": "TRACE_REQ_016",
+        "request_id": "REQ_016",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730417Z",
+        "trace_id": "TRACE_REQ_016",
+        "request_id": "REQ_016",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 4200,
+        "error": "Wrong tool selected.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730431Z",
+        "trace_id": "TRACE_REQ_017",
+        "request_id": "REQ_017",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730431Z",
+        "trace_id": "TRACE_REQ_017",
+        "request_id": "REQ_017",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730431Z",
+        "trace_id": "TRACE_REQ_017",
+        "request_id": "REQ_017",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730431Z",
+        "trace_id": "TRACE_REQ_017",
+        "request_id": "REQ_017",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730431Z",
+        "trace_id": "TRACE_REQ_017",
+        "request_id": "REQ_017",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 4200,
+        "error": "Wrong tool selected.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730442Z",
+        "trace_id": "TRACE_REQ_018",
+        "request_id": "REQ_018",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730442Z",
+        "trace_id": "TRACE_REQ_018",
+        "request_id": "REQ_018",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730442Z",
+        "trace_id": "TRACE_REQ_018",
+        "request_id": "REQ_018",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730442Z",
+        "trace_id": "TRACE_REQ_018",
+        "request_id": "REQ_018",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730442Z",
+        "trace_id": "TRACE_REQ_018",
+        "request_id": "REQ_018",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 4200,
+        "error": "Permission denied.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730453Z",
+        "trace_id": "TRACE_REQ_019",
+        "request_id": "REQ_019",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730453Z",
+        "trace_id": "TRACE_REQ_019",
+        "request_id": "REQ_019",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730453Z",
+        "trace_id": "TRACE_REQ_019",
+        "request_id": "REQ_019",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730453Z",
+        "trace_id": "TRACE_REQ_019",
+        "request_id": "REQ_019",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730453Z",
+        "trace_id": "TRACE_REQ_019",
+        "request_id": "REQ_019",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "FAILED",
+        "latency_ms": 4200,
+        "error": "Permission denied.",
+        "retries": 0
+    },
+    {
+        "timestamp": "2026-08-17T14:59:26.730464Z",
+        "trace_id": "TRACE_REQ_020",
+        "request_id": "REQ_020",
+        "event_type": "REQUEST_STARTED",
+        "agent_name": "GeneralAgent",
+        "prompt": "http requests"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:27.730464Z",
+        "trace_id": "TRACE_REQ_020",
+        "request_id": "REQ_020",
+        "event_type": "PLANNER_STARTED"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:28.730464Z",
+        "trace_id": "TRACE_REQ_020",
+        "request_id": "REQ_020",
+        "event_type": "TOOL_SELECTED",
+        "tool_name": "General Tool"
+    },
+    {
+        "timestamp": "2026-08-17T14:59:29.730464Z",
+        "trace_id": "TRACE_REQ_020",
+        "request_id": "REQ_020",
+        "event_type": "AGENT_RESPONSE",
+        "actual_result": "Successfully completed the requested operation."
+    },
+    {
+        "timestamp": "2026-08-17T14:59:30.730464Z",
+        "trace_id": "TRACE_REQ_020",
+        "request_id": "REQ_020",
+        "event_type": "REQUEST_COMPLETED",
+        "status": "SUCCESS",
+        "latency_ms": 4200,
+        "error": null,
+        "retries": 0
+    }
+]

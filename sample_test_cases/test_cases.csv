@@ -1,2 +1,0 @@
-Test ID,Feature (Module),Test Case,Preconditions,Test Steps,Test Data,Test Case Type,Expected Result
-SEM-001,GIF Replies,Funny message gets a GIF - Funny,GIF feature ON. User has NOT opted out. No GIF sent to this user today.,1. Send the message on WhatsApp. 2. Read Memorae's reply. 3. Check a GIF or sticker arrives with the reply.,I set a reminder to drink water and then ignored it 6 times today. I'm basically a cactus now 😄,Smoke · Positive,Memorae replies normally AND sends a GIF that matches a light-hearted / funny mood.

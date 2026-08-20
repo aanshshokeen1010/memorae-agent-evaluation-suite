@@ -34,7 +34,7 @@ jobs:
         env:
           PYTHONPATH: .
         run: |
-          pytest -v
+          pytest tests/ -v
 
   frontend-build:
     name: Frontend Build & Type Check

@@ -1,12 +1,5 @@
 # Memorae Agent Evaluation & Observability Framework
 
-[![CI Pipeline](https://github.com/aanshshokeen1010/memorae-agent-evaluation-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/aanshshokeen1010/memorae-agent-evaluation-suite/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-18.3+-61DAFB?logo=react&logoColor=black)
-![Better Stack](https://img.shields.io/badge/Better%20Stack-Telemetry%20API-06B6D4)
-![Tests](https://img.shields.io/badge/Unit%20Tests-21%2F21%20Passing-brightgreen)
-
 An automated evaluation, diagnostics, and failure taxonomy framework for Memorae.ai agents, integrated with Better Stack Telemetry.
 
 This framework ingests live telemetry logs from Better Stack, normalizes multi-agent execution events, classifies failure modes (timeouts, tool errors, memory retrieval faults, permission issues), computes latency percentiles (p50, p90, p99), and provides execution span waterfall timelines.

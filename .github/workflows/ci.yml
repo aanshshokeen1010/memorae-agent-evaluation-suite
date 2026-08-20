@@ -34,7 +34,7 @@ jobs:
         env:
           PYTHONPATH: .
         run: |
-          python -m unittest discover tests
+          pytest -v
 
   frontend-build:
     name: Frontend Build & Type Check
